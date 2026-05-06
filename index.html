@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />  
+  
+</head>
+<body>
+
+  <!-- ==================== NAVEGAÇÃO ==================== -->
+  <nav>
+    <div class="container">
+      <span class="nav-logo">Gustavo<span>Rodrigues</span></span>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-conteudo">
+        <span class="hero-tag">Disponível para projetos</span>
+        <h1 class="hero-titulo">
+          Olá, sou<br><span>Gustavo</span>
+        </h1>
+        <p class="hero-subtitulo">
+          Desenvolvedor em progresso buscando opotunidades para aprender e ajudar o seu projeto da melhor forma possivel.
+        </p>
+        <div class="hero-botoes">
+          <a href="#projetos" class="btn btn-primario">Ver projetos</a>
+          <a href="#contato" class="btn btn-secundario">Entrar em contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SOBRE ==================== -->
+<section id="sobre">
+  <div class="container">
+    <h2 class="secao-titulo">Sobre mim</h2>
+    <p class="secao-descricao">Passe o mouse para saber mais.</p>
+
+    <div class="wrap animate pop">
+      <div class="overlay">
+        <div class="overlay-content animate slide-left delay-2">
+          <h1 class="animate slide-left pop delay-4">Gustavo Rodrigues</h1>
+          <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">
+                <em>Developer Loading</em>
+          </p>
+        </div>
+        <!-- Troque a URL pela sua foto -->
+        <div class="image-content animate slide delay-5"
+             style="background-image: url('imagens/nenex.jpg');"></div>
+        <div class="dots animate">
+          <div class="dot animate slide-up delay-6"></div>
+          <div class="dot animate slide-up delay-7"></div>
+          <div class="dot animate slide-up delay-8"></div>
+        </div>
+      </div>
+
+      <div class="text">
+        <p>
+          Olá! Me chamo <strong>Gustavo</strong> e sou apaixonado por
+          Tecnologia, computadores e jogos digitais desde criança. E com o tempo fui me interessando pela programação
+          e atualmente estou no 5° periodo da Faculdade de Análise e Desenvolvimento de Sistemas, Curso no SENAI: Tecnico Profissinalizante em Desenvolvimento de Sistemas.
+        </p>
+        <p>Gosto de transformar ideias em produtos reais, com atenção a detalhes
+        de design e performance.</p>
+
+        <!-- Skills como tags -->
+        <div class="sobre-skills">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ==================== PROJETOS ==================== -->
+  <section id="projetos">
+    <div class="container">
+      <h2 class="secao-titulo">Projetos</h2>
+      <p class="secao-descricao">Alguns trabalhos que desenvolvi. Clique para saber mais.</p>
+
+      <div class="projetos-grid">
+
+        <!-- CARD 1 -->
+        <div class="card-projeto">
+          <div class="card-imagem">Imagem do projeto</div>
+          <div class="card-corpo">
+            <h3 class="card-nome">Nome do Projeto</h3>
+            <p class="card-descricao">
+              Breve descrição do que o projeto faz, qual problema resolve
+              e qual foi sua contribuição.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">React</span>
+              <span class="card-tag">CSS</span>
+              <span class="card-tag">API</span>
+            </div>
+            <div class="card-links">
+              <a href="#">Ver projeto →</a>
+              <a href="#" style="color: var(--cor-texto-suave);">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card-projeto">
+          <div class="card-imagem">Imagem do projeto</div>
+          <div class="card-corpo">
+            <h3 class="card-nome">Outro Projeto</h3>
+            <p class="card-descricao">
+              Descreva aqui o que foi feito, as tecnologias usadas e
+              o impacto gerado ou o problema que resolve.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">Node.js</span>
+              <span class="card-tag">MongoDB</span>
+            </div>
+            <div class="card-links">
+              <a href="#">Ver projeto →</a>
+              <a href="#" style="color: var(--cor-texto-suave);">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card-projeto">
+          <div class="card-imagem">Imagem do projeto</div>
+          <div class="card-corpo">
+            <h3 class="card-nome">Mais um Projeto</h3>
+            <p class="card-descricao">
+              Adicione quantos cards quiser copiando este bloco e
+              personalizando as informações.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">Python</span>
+              <span class="card-tag">Flask</span>
+            </div>
+            <div class="card-links">
+              <a href="#">Ver projeto →</a>
+              <a href="#" style="color: var(--cor-texto-suave);">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTATO ==================== -->
+  <section id="contato">
+    <div class="container">
+      <h2 class="secao-titulo">Vamos conversar?</h2>
+      <p class="secao-descricao">
+        Estou aberto a oportunidades, freelas e colaborações.
+        Me manda uma mensagem!
+      </p>
+      <div class="contato-botoes">
+        <a href="mailto:seuemail@email.com" class="btn btn-primario">
+          ✉ grodrigues.devloper@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/seuperfil" class="btn btn-secundario" target="_blank">
+          LinkedIn
+        </a>
+        <a href="https://github.com/grnex" class="btn btn-secundario" target="_blank">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RODAPÉ ==================== -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Seu Nome — Feito com HTML & CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
